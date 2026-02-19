@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+#grid-container{
+	display: grid;
+	grid-template-columns: repeat(3,100px);
+	grid-template-rows:repeat(3,100px);
+	gap: 10px;
+}
+.grid-item{
+	background-color: transparent;
+}
+.inputs{
+  margin-block-end: 10px;
+}
+#colour_id{
+  vertical-align: middle;
+}
