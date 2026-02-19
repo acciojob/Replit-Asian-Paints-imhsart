@@ -5,9 +5,6 @@
 	grid-template-rows:repeat(3,100px);
 	gap: 10px;
 }
-.grid-item{
-	background-color: transparent;
-}
 .inputs{
   margin-block-end: 10px;
 }
