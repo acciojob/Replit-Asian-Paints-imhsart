@@ -9,7 +9,9 @@ changeBtn.addEventListener('click',() => {
 	let gridnum = inputId.value;
 	if(!gridnum) return
 	let color = colorId.value
-	reset()
+	for(let item of gridItems){
+		item.style.backgroundColor = 'transparent';
+	}
 	let selected = gridItems[gridnum-1].id
 	document.getElementById(`${selected}`).style.backgroundColor = color;
 })
