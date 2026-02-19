@@ -3,7 +3,7 @@ let inputId = document.getElementById('block_id')
 let colorId = document.getElementById('colour_id')
 let gridItems = document.querySelectorAll('.grid-item')
 let changeBtn = document.getElementById('change_button')
-let resetBtn = document.getElementById('reset')
+let resetBtn = document.getElementById('reset_button')
 
 changeBtn.addEventListener('click',() => {
 	let gridnum = inputId.value;
